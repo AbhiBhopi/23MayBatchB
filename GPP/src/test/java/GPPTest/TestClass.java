@@ -34,30 +34,7 @@ public class TestClass {
 		System.out.println("before Method - TestClass 1");
 	}
 	
-	@Test 
-	public void testA() {
-		System.out.println("Test A - TestClass 1");
-	}
-	       
-	@Test 
-	public void testB() {
-		System.out.println("Test B - TestClass 1");
-	}
 	
-	@AfterMethod
-	public void afterMethod() {
-		System.out.println("After method - TestClass 1");
-	}
-	
-	@AfterClass
-	public void afterClass() {
-		System.out.println("After class - TestClass 1");
-	}
-	
-	@AfterTest
-	public void afterTest() {
-		System.out.println("After test - TestClass 1");
-	}
 	
 	@AfterSuite
 	public void afterSute() {
