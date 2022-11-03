@@ -56,16 +56,6 @@ public class TestClass {
 	public void afterSute354() {
 		System.out.println("After sute - TestClass 1");
 	}
-	@BeforeMethod
-	public void beforeMethod47() {
-		System.out.println("before Method - TestClass 1");
-	}
 	
-	
-	
-	@AfterSuite
-	public void afterSute() {
-		System.out.println("After sute - TestClass 1");
-	}
 
 }
